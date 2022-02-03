@@ -11,3 +11,5 @@ Note: ```chmod 700 ~/.ssh``` is very important!! This cmd makes computer to not 
 </br>
 Copy and paste the public key to UpCloud's SSH Key pannel and make server with it. 
 - Make Ubuntu server. This creates ```authorized_key``` file in the ```.ssh``` directory. 
+- If an image does not get loaded, make sure you need to set router for the image as well. 
+ex) GET yejshin/.../.../src/puppy.jpg``` also needs to get routed to folder. 
