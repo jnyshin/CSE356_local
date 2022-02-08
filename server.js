@@ -23,9 +23,8 @@ app.get("/hw1.yml", sendYML, function (req, res) {
 });
 
 function sendYML(req, res, next) {
-  res.sendFile(path.join(__dirname, "/hw1.yml"));
+  res.sendFile(path.join(__dirname, "/../hw1.yml"));
   console.log("hw1");
-  
   next();
   return;
 }
