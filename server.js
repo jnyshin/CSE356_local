@@ -16,10 +16,10 @@ app.get("/image/andrew-schultz-DTSDD968Mpw-unsplash.jpg", function (req, res) {
   );
 });
 
-app.get("/hw1.yml", sendYML, function (req, res) {
+app.get("/hw1.yml", function (req, res) {
   console.log("redirect to /hw0.html");
-  //res.sendFile(path.join(__dirname, "/../hw1.yml"));
-  res.redirect("/hw0.html");
+  res.sendFile(path.join(__dirname, "/../hw1.yml"));
+  //res.redirect("/hw0.html");
 });
 
 function sendYML(req, res, next) {
