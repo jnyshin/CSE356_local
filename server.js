@@ -3,7 +3,7 @@ const path = require("path");
 const app = express();
 
 app.get("/", function (req, res) {
-  res.redirect("/hw0.html");
+  res.redirect("/hw1.yml");
 });
 
 app.get("/hw0.html", function (req, res) {
