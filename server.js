@@ -15,4 +15,7 @@ app.get("/image/andrew-schultz-DTSDD968Mpw-unsplash.jpg", function (req, res) {
     path.join(__dirname, "/image/andrew-schultz-DTSDD968Mpw-unsplash.jpg")
   );
 });
+app.get("/hw1.yml", function (req, res) {
+  res.sendFile(path.join(__dirname, "/../hw1.yml"));
+});
 app.listen(80 || 443);
